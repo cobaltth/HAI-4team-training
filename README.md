@@ -1,4 +1,4 @@
-음악 파일을 입력받아 4-KEY 리듬 게임의 채보를 자동으로 생성하는 AI 모델
+## 음악 파일을 입력받아 4-KEY 리듬 게임의 채보를 자동으로 생성하는 AI 모델
 
 .osu파일에서 mp3, .osz파일을 추출하여 mp3는 mel-spectogram으로, .osz에서 나온 채보는 학습하기 쉬운 형태로 전처리했다.
 encoder에 mel-spectogram을 입력값으로 넣고, decoder에 전처리된 채보(event)를 입력값으로 넣었다.
